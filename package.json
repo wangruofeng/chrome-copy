@@ -1,0 +1,14 @@
+{
+  "name": "x-post-copy",
+  "version": "1.0.0",
+  "private": true,
+  "description": "一键复制 X 帖子正文的 Chrome 扩展",
+  "scripts": {
+    "test": "node --test",
+    "icons": "node scripts/generate-icons.mjs"
+  },
+  "devDependencies": {
+    "jsdom": "^27.0.0",
+    "sharp": "^0.34.4"
+  }
+}
